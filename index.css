@@ -7,6 +7,12 @@ body {
     display: flex;
 }
 
+@media only screen and (max-width: 1000px) {
+    .card-container {
+        flex-direction: column;
+    }
+  }
+
 .card2 {
     margin: 2rem;
     padding: 1rem 2rem;
